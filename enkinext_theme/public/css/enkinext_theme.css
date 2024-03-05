@@ -87,10 +87,11 @@ a {
 .icon, .es-icon {
     stroke: #584c4c;
 }
-body {
-    background-image: url(/assets/enkinext_theme/images/log_in.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #f0f0f0;
+
+span.link-content.ellipsis {
+    
+    border: 1px solid #9f7575;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
