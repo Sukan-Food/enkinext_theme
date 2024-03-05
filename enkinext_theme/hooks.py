@@ -5,9 +5,15 @@ app_description = "Theme"
 app_email = "nitesh@sukan.eu"
 app_license = "mit"
 # required_apps = []
+app_logo_url = "/assets/enkinext_theme/images/Favicon.png"
+app_include_css = "/assets/enkinext_theme/css/enkinext_theme.css"
 
 # Includes in <head>
 # ------------------
+website_context = {
+	"favicon": '/assets/enkinext_theme/images/Favicon.png',
+	"splash_image": "/assets/enkinext_theme/images/Favicon.png"
+}
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/enkinext_theme/css/enkinext_theme.css"
